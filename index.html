@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description"
+    content="Experience premium luxury dining at AURA. Crafted flavors, sophisticated ambiance, and culinary artistry. Reserve your table today.">
+  <title>AURA | Luxury Fine Dining & Restaurant Experience</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- ==========================================
+       HEADER & NAVBAR
+       ========================================== -->
+  <header class="header">
+    <div class="container">
+      <a href="#home" class="logo">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M12 2L14.85 9.15L22 12L14.85 14.85L12 22L9.15 14.85L2 12L9.15 9.15L12 2Z" fill="#D4A373" />
+        </svg>
+        AURA
+      </a>
+
+      <nav class="nav-menu" id="navMenu">
+        <ul class="nav-list">
+          <li><a href="#home" class="nav-link active">Home</a></li>
+          <li><a href="#menu" class="nav-link">Menu</a></li>
+          <li><a href="#gallery" class="nav-link">Gallery</a></li>
+          <li><a href="#booking" class="nav-link">Booking</a></li>
+          <li><a href="#location" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+
+      <a href="#booking" class="btn btn-secondary nav-cta-desktop"
+        style="padding: 0.6rem 1.5rem; font-size: 0.75rem; display: none;">Reserve Now</a>
+
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- ==========================================
+       HERO SECTION
+       ========================================== -->
+  <section class="hero" id="home">
+    <div class="hero-bg"
+      style="background-image: url('https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?q=80&w=1920');"></div>
+    <div class="hero-overlay"></div>
+    <div class="container">
+      <div class="hero-content reveal">
+        <span class="hero-tagline">Welcome to Aura</span>
+        <h1 class="hero-title">Experience <span>Fine Dining</span></h1>
+        <p class="hero-description">Crafted flavors. Elegant atmosphere. Reserve your table today and immerse yourself
+          in a culinary journey designed for the senses.</p>
+        <div class="hero-buttons">
+          <a href="#booking" class="btn btn-primary">Reserve Table</a>
+          <a href="#menu" class="btn btn-secondary">View Menu</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================
+       MENU HIGHLIGHTS SECTION
+       ========================================== -->
+  <section class="menu section-padding" id="menu">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-subtitle">Chef's Signature Creations</span>
+        <h2 class="section-title">The Culinary Selections</h2>
+      </div>
+
+      <div class="menu-grid">
+        <!-- Dish 1 -->
+        <article class="menu-card reveal">
+          <div class="menu-img-wrapper">
+            <img src="https://images.unsplash.com/photo-1544025162-d76694265947?q=80&w=600"
+              alt="Pan-Seared Wagyu Ribeye" class="menu-img">
+          </div>
+          <div class="menu-info">
+            <div class="menu-meta">
+              <h3 class="menu-dish-title">Pan-Seared Wagyu Ribeye</h3>
+              <span class="menu-price">$85</span>
+            </div>
+            <p class="menu-desc">A5 Miyazaki Wagyu ribeye served with organic charred asparagus, bone marrow jus, and a
+              light rosemary glaze.</p>
+          </div>
+        </article>
+
+        <!-- Dish 2 -->
+        <article class="menu-card reveal">
+          <div class="menu-img-wrapper">
+            <img src="https://images.unsplash.com/photo-1615141982883-c7ad0e69fd62?q=80&w=600"
+              alt="Truffle Butter Lobster Tail" class="menu-img">
+          </div>
+          <div class="menu-info">
+            <div class="menu-meta">
+              <h3 class="menu-dish-title">Truffle Butter Lobster</h3>
+              <span class="menu-price">$72</span>
+            </div>
+            <p class="menu-desc">Atlantic lobster tail poached in garlic herb clarified butter, served over a bed of
+              saffron-infused black rice.</p>
+          </div>
+        </article>
+
+        <!-- Dish 3 -->
+        <article class="menu-card reveal">
+          <div class="menu-img-wrapper">
+            <img src="https://images.unsplash.com/photo-1519708227418-c8fd9a32b7a2?q=80&w=600"
+              alt="Glazed Duck Breast with Figs" class="menu-img">
+          </div>
+          <div class="menu-info">
+            <div class="menu-meta">
+              <h3 class="menu-dish-title">Glazed Duck & Figs</h3>
+              <span class="menu-price">$48</span>
+            </div>
+            <p class="menu-desc">Crispy pan-roasted Muscovy duck breast drizzled with a rich Mission fig reduction,
+              accompanied by parsnip purée.</p>
+          </div>
+        </article>
+
+        <!-- Dish 4 -->
+        <article class="menu-card reveal">
+          <div class="menu-img-wrapper">
+            <img src="https://images.unsplash.com/photo-1476124369491-e7addf5db371?q=80&w=600"
+              alt="Wild Mushroom & Black Truffle Risotto" class="menu-img">
+          </div>
+          <div class="menu-info">
+            <div class="menu-meta">
+              <h3 class="menu-dish-title">Truffle Wild Risotto</h3>
+              <span class="menu-price">$38</span>
+            </div>
+            <p class="menu-desc">Creamy Carnaroli rice cooked with wild forest chanterelles, finished with a generous
+              shaving of fresh black winter truffles.</p>
+          </div>
+        </article>
+
+        <!-- Dish 5 -->
+        <article class="menu-card reveal">
+          <div class="menu-img-wrapper">
+            <img src="https://images.unsplash.com/photo-1546069901-ba9599a7e63c?q=80&w=600"
+              alt="Artisanal Heirloom & Burrata Bowl" class="menu-img">
+          </div>
+          <div class="menu-info">
+            <div class="menu-meta">
+              <h3 class="menu-dish-title">Artisanal Burrata Bowl</h3>
+              <span class="menu-price">$26</span>
+            </div>
+            <p class="menu-desc">Creamy Italian burrata cheese, vine-ripened heirloom tomatoes, toasted pine nuts, aged
+              balsamic glaze, and baby basil leaves.</p>
+          </div>
+        </article>
+
+        <!-- Dish 6 -->
+        <article class="menu-card reveal">
+          <div class="menu-img-wrapper">
+            <img src="https://images.unsplash.com/photo-1551024601-bec78aea704b?q=80&w=600"
+              alt="Pistachio & Matcha Tart" class="menu-img">
+          </div>
+          <div class="menu-info">
+            <div class="menu-meta">
+              <h3 class="menu-dish-title">Pistachio Matcha Tart</h3>
+              <span class="menu-price">$18</span>
+            </div>
+            <p class="menu-desc">Decadent roasted pistachio crust loaded with white chocolate matcha ganache, served
+              with fresh raspberry gel.</p>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================
+       GALLERY SECTION (BENTO GRID)
+       ========================================== -->
+  <section class="gallery section-padding" id="gallery">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-subtitle">Visual Ambiance</span>
+        <h2 class="section-title">A Glimpse of Aura</h2>
+      </div>
+
+      <div class="bento-grid">
+        <!-- Item 1: Large Landscape -->
+        <div class="bento-item large-landscape reveal">
+          <img src="https://images.unsplash.com/photo-1485182708500-e8f1f318ba72?q=80&w=800"
+            alt="Luxury dining room view">
+          <div class="bento-overlay">
+            <div class="bento-text">
+              <span class="bento-category">Ambiance</span>
+              <h3 class="bento-title">The Grand Dining Hall</h3>
+            </div>
+          </div>
+        </div>
+
+        <!-- Item 2: Tall -->
+        <div class="bento-item tall reveal">
+          <img src="https://images.unsplash.com/photo-1600565193348-f74bd3c7ccdf?q=80&w=800"
+            alt="Chef preparing luxury dish">
+          <div class="bento-overlay">
+            <div class="bento-text">
+              <span class="bento-category">Craftsmanship</span>
+              <h3 class="bento-title">Kitchen Artistry</h3>
+            </div>
+          </div>
+        </div>
+
+        <!-- Item 3: Square 1 -->
+        <div class="bento-item square-1 reveal">
+          <img src="https://images.unsplash.com/photo-1510812431401-41d2bd2722f3?q=80&w=600"
+            alt="Red wine being poured into glass">
+          <div class="bento-overlay">
+            <div class="bento-text">
+              <span class="bento-category">Cellar</span>
+              <h3 class="bento-title">Vintages & Pairings</h3>
+            </div>
+          </div>
+        </div>
+
+        <!-- Item 4: Square 2 -->
+        <div class="bento-item square-2 reveal">
+          <img src="https://images.unsplash.com/photo-1565958011703-44f9829ba187?q=80&w=600"
+            alt="Gourmet dessert plating close-up">
+          <div class="bento-overlay">
+            <div class="bento-text">
+              <span class="bento-category">Pâtisserie</span>
+              <h3 class="bento-title">Sweet Conceptions</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================
+       BOOKING SECTION (GLASSMORPHISM)
+       ========================================== -->
+  <section class="booking section-padding" id="booking">
+    <div class="container">
+      <div class="booking-card reveal">
+        <div class="booking-success" id="bookingSuccess">
+          <div class="success-icon">✓</div>
+          <h3 class="success-title">Reservation Confirmed</h3>
+          <p class="success-summary">Thank you, <span id="summaryName">Guest</span>. We have secured your table at Aura.
+            A confirmation details package has been dispatched to your phone.</p>
+          <div class="success-details">
+            <div class="detail-item">
+              <span class="detail-label">Guests</span>
+              <span class="detail-val" id="summaryGuests">2 Guests</span>
+            </div>
+            <div class="detail-item">
+              <span class="detail-label">Date</span>
+              <span class="detail-val" id="summaryDate">June 28, 2026</span>
+            </div>
+            <div class="detail-item">
+              <span class="detail-label">Time</span>
+              <span class="detail-val" id="summaryTime">7:30 PM</span>
+            </div>
+          </div>
+          <button class="btn btn-primary" id="btnResetForm">Make Another Booking</button>
+        </div>
+
+        <h2 class="booking-title">Reserve A Table</h2>
+
+        <form class="booking-form" id="bookingForm" novalidate>
+          <div class="form-group">
+            <label for="bookingName" class="form-label">Full Name</label>
+            <input type="text" id="bookingName" class="form-input" placeholder="e.g. Alexander Mercer" required>
+            <span class="error-msg">Name is required (at least 3 characters)</span>
+          </div>
+
+          <div class="form-group">
+            <label for="bookingPhone" class="form-label">Phone Number</label>
+            <input type="tel" id="bookingPhone" class="form-input" placeholder="e.g. +1 555-0199" required>
+            <span class="error-msg">Enter a valid 10+ digit phone number</span>
+          </div>
+
+          <div class="form-group">
+            <label for="bookingGuests" class="form-label">Number of Guests</label>
+            <select id="bookingGuests" class="form-input" required>
+              <option value="" disabled selected>Select number of guests</option>
+              <option value="1">1 Guest</option>
+              <option value="2">2 Guests</option>
+              <option value="3">3 Guests</option>
+              <option value="4">4 Guests</option>
+              <option value="5">5 Guests</option>
+              <option value="6">6 Guests</option>
+              <option value="7+">7+ Guests (Requires review)</option>
+            </select>
+            <span class="error-msg">Please select guest count</span>
+          </div>
+
+          <div class="form-group">
+            <label for="bookingDate" class="form-label">Date</label>
+            <input type="date" id="bookingDate" class="form-input" required>
+            <span class="error-msg">Select a valid future date</span>
+          </div>
+
+          <div class="form-group">
+            <label for="bookingTime" class="form-label">Time</label>
+            <input type="time" id="bookingTime" class="form-input" required>
+            <span class="error-msg">Select a time between 17:00 and 22:30</span>
+          </div>
+
+          <div class="form-group full-width">
+            <button type="submit" class="btn btn-primary booking-submit">Confirm Reservation</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================
+       LOCATION & DETAILS SECTION
+       ========================================== -->
+  <section class="location section-padding" id="location">
+    <div class="container">
+      <div class="location-layout">
+        <!-- Left: Facade Photo -->
+        <div class="location-visual reveal-left">
+          <img src="https://images.unsplash.com/photo-1555396273-367ea4eb4db5?q=80&w=800"
+            alt="Aura restaurant exterior facade lighting">
+        </div>
+
+        <!-- Right: Information Details -->
+        <div class="location-content reveal-right">
+          <div class="section-header" style="text-align: left; margin-bottom: 0;">
+            <span class="section-subtitle">Find Aura</span>
+            <h2 class="section-title" style="text-align: left; margin: 0;">Hours & Location</h2>
+          </div>
+
+          <div class="location-info">
+            <!-- Block 1: Address -->
+            <div class="info-block">
+              <div class="info-icon">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                  stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                  <circle cx="12" cy="10" r="3"></circle>
+                </svg>
+              </div>
+              <div>
+                <h3 class="info-title">Our Address</h3>
+                <p class="info-text">742 Avenue de l'Étoile, Paris, France 75008</p>
+              </div>
+            </div>
+
+            <!-- Block 2: Hours -->
+            <div class="info-block">
+              <div class="info-icon">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                  stroke-linecap="round" stroke-linejoin="round">
+                  <circle cx="12" cy="12" r="10"></circle>
+                  <polyline points="12 6 12 12 16 14"></polyline>
+                </svg>
+              </div>
+              <div>
+                <h3 class="info-title">Opening Hours</h3>
+                <p class="info-text">Monday – Thursday: 17:00 – 23:00</p>
+                <p class="info-text">Friday – Sunday: 17:00 – 00:00</p>
+              </div>
+            </div>
+
+            <!-- Block 3: Phone/Email -->
+            <div class="info-block">
+              <div class="info-icon">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                  stroke-linecap="round" stroke-linejoin="round">
+                  <path
+                    d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z">
+                  </path>
+                </svg>
+              </div>
+              <div>
+                <h3 class="info-title">Reservations & Inquiries</h3>
+                <p class="info-text">Phone: +33 4 23 10 00 01</p>
+                <p class="info-text">Email: reservations@aurafinedining.com</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Embedded Map -->
+          <div class="map-container">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2624.2215352358823!2d2.2980838156748446!3d48.87304190899453!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66fc348f9cb5d%3A0x6b4ef82110c4f826!2sAv.%20des%20Champs-%C3%89lys%C3%A9es%2C%2075008%20Paris%2C%20France!5e0!3m2!1sen!2sus!4v1655700000000!5m2!1sen!2sus"
+              loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="Aura Restaurant Location Map">
+            </iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================
+       FOOTER
+       ========================================== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-layout">
+        <!-- Col 1: About/Logo -->
+        <div class="footer-col reveal">
+          <a href="#home" class="footer-logo">
+            <span>A</span>URA
+          </a>
+          <p class="footer-about">Indulge in an atmosphere designed to heighten the senses, where culinary mastery meets
+            luxury interior styling to deliver unforgettable dining moments.</p>
+          <div class="footer-socials">
+            <a href="https://instagram.com" class="social-icon" aria-label="Follow Aura on Instagram">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                stroke-linecap="round" stroke-linejoin="round">
+                <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+              </svg>
+            </a>
+            <a href="https://facebook.com" class="social-icon" aria-label="Follow Aura on Facebook">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                stroke-linecap="round" stroke-linejoin="round">
+                <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path>
+              </svg>
+            </a>
+            <a href="https://tripadvisor.com" class="social-icon" aria-label="Follow Aura on TripAdvisor">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="12" cy="12" r="10"></circle>
+                <path d="M8 14s1.5 2 4 2 4-2 4-2"></path>
+                <line x1="9" y1="9" x2="9.01" y2="9"></line>
+                <line x1="15" y1="9" x2="15.01" y2="9"></line>
+              </svg>
+            </a>
+          </div>
+        </div>
+
+        <!-- Col 2: Navigation Links -->
+        <div class="footer-col reveal">
+          <h3 class="footer-heading">Navigation</h3>
+          <ul class="footer-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#menu">Our Menu</a></li>
+            <li><a href="#gallery">Ambiance Gallery</a></li>
+            <li><a href="#booking">Table Reservation</a></li>
+            <li><a href="#location">Hours & Location</a></li>
+          </ul>
+        </div>
+
+        <!-- Col 3: Newsletter Sign Up -->
+        <div class="footer-col reveal">
+          <h3 class="footer-heading">Mailing List</h3>
+          <p class="newsletter-desc">Subscribe to unlock invitations to exclusive tasting menus, culinary salons, and
+            vintage cellars pairings.</p>
+          <form class="newsletter-form" id="newsletterForm">
+            <input type="email" class="newsletter-input" placeholder="Your Email Address"
+              aria-label="Newsletter email address" required>
+            <button type="submit" class="newsletter-btn" aria-label="Submit newsletter subscription">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                stroke-linecap="round" stroke-linejoin="round">
+                <line x1="5" y1="12" x2="19" y2="12"></line>
+                <polyline points="12 5 19 12 12 19"></polyline>
+              </svg>
+            </button>
+          </form>
+        </div>
+      </div>
+
+      <!-- Footer Bottom Bar -->
+      <div class="footer-bottom">
+        <p class="copyright">&copy; 2026 AURA Restaurant. All rights reserved.</p>
+        <div class="footer-policy">
+          <a href="#">Privacy Policy</a>
+          <a href="#">Terms & Conditions</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>

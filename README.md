@@ -3,9 +3,9 @@
 A modern, highly polished, and visually stunning landing page for **AURA**, an upscale fine dining restaurant. This project showcases premium web design patterns, including sophisticated typography, a dark luxurious color palette, responsive bento grids, glassmorphism, and smooth scroll reveal animations.
 
 ## 🔗 Live Demo
-*Deploy your repository on GitHub Pages to share your live website URL here!*
+[https://aura-luxury-fine-dining-restaurant.vercel.app/]
 
----
+--
 
 ## ✨ Features
 
